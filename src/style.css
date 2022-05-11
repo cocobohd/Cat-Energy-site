@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+}
+
+.header {
+  width: 100%;
+  background: url('./imgs/green-cat-background.png');
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: right;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 50px 110px 0 110px;
+}
+.nav {
+  display: flex;
+}
+.nav li {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 20px;
+  list-style-type: none;
+  margin-left: 35px;
+  cursor: pointer;
+}
+.nav li:first-child {
+  margin-left: 0;
+}
+.nav li:hover {
+  border-bottom: 1px white solid;
+}
+
+.logo {
+  width: 200px;
+  height: 60px;
+}
