@@ -33,7 +33,6 @@
 .nav li:hover {
   transition: 0.2s;
   border-bottom: 2px white solid;
-  font-size: 21px;
 }
 
 .logo {

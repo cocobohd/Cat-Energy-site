@@ -4,7 +4,7 @@
   padding: 80px 110px 0 110px;
 }
 .works--pos {
-  min-width: 1200px;
+  min-width: 1220px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -42,12 +42,49 @@
   font-size: 20px;
   background: #F2F2F2;
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
 }
 .card--btn:hover {
   border-radius: 10px;
-  justify-content: center;
   transition: 1s;
   background: #b9b8b8;
+}
+.step {
+  min-width: 1200px;
+  padding: 70px 110px 0 110px;
+}
+.steps--div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.step--title {
+  font-size: 60px;
+  font-weight: 400;
+}
+.item {
+  margin-top: 30px;
+  width: 265px;
+  height: 261px;
+}
+.item:hover {
+  transition: 1s;
+  cursor: pointer;
+  box-shadow: 10px 5px 5px #b9b8b8;
+}
+.item--background {
+  position: absolute;
+  font-size: 300px;
+  margin-left: 40px;
+  color: #F2F2F2;
+  z-index: -1;
+  line-height: 234px;
+}
+.item--text {
+  font-size: 17px;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 30px;
+  line-height: 30px;
+  color: #444444;
 }
