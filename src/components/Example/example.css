@@ -1,0 +1,98 @@
+.example {
+  padding: 10px 110px 75px 110px;
+  display: flex;
+  justify-content: center;
+  background: url("./example--img/back.png");
+  background-repeat: no-repeat;
+  background-size: 100% 65%;
+  background-position: bottom;
+}
+.example--pos {
+  display: flex;
+  justify-content: space-between;
+  width: 1400px;
+  max-width: 1980px;
+}
+.example--text {
+  width: 50%;
+}
+.example--title {
+  font-size: 60px;
+  font-weight: 400;
+  padding-top: 60px;
+}
+.example--subtext {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  width: 440px;
+  padding-top: 145px;
+  line-height: 27px;
+}
+.weight--time {
+  display: flex;
+}
+.example--weigth, .example--time {
+  width: 165px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 70px;
+  border: 1px #b3b0b0 solid;
+}
+.example--weigth--subtext {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #444444;
+  position: absolute;
+  z-index: 1;
+  background-color: #F2F2F2;
+  margin-top: 70px;
+  width: 130px;
+  text-align: center;
+}
+.example--time {
+  margin-left: 40px;
+}
+.example--costs {
+  margin-top: 55px;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.example--price {
+  margin-left: 60px;
+}
+.example--img {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.example--range {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.example--range span {
+  font-size: 20px;
+  padding: 20px 20px 25px 20px;
+}
+.example--input {
+  -webkit-appearance: none;
+  border: none;
+  border-radius: 5px;
+  height: 6px;
+  background-color: #DCDCDC;
+  width: 500px;
+}
+.example--input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 35px;
+  height: 35px;
+  background-color: #FFFFFF;
+  border-radius: 100%;
+  cursor: pointer;
+  border:  1px #DCDCDC solid;
+}

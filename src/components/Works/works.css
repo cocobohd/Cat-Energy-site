@@ -52,6 +52,8 @@
 }
 .step {
   min-width: 1200px;
+  max-width: 1980px;
+  margin: 0 auto;
   padding: 70px 110px 0 110px;
 }
 .steps--div {
